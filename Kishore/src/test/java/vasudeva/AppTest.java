@@ -10,5 +10,7 @@ public class AppTest
 	{
 		FirefoxDriver driver=new FirefoxDriver();
 		driver.get("Http://gmail.com");
+		driver.manage().window().maximize();
+		
 	}
 }
